@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(141, 135, 135);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+
+    padding-top: 9rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10rem;
+}
+.info{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    font-size: 20px;
+    transform: translateX(190%);
+    padding-top: 20px;
+}
